@@ -1,234 +1,68 @@
 body {
-    margin: 0 auto;
+    margin: 0;
+    background: #590001;
+}
+
+.container {
+    background: url("../img/bg.jpg");
+    background-blend-mode: lighten;
+    background-attachment: fixed;
 }
 
 .header {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url("../img/header/dragonskin.jpg");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.dragon {
-    position: relative;
-    width: 120px;
-    height: 80px;
+.gradient {
+    width: 161px;
+    height: inherit;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.82) 68.75%, rgba(255, 255, 255, 0) 100%);
 }
 
-.dragon-menu {
-    position: absolute;
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 0px;
+    gap: 10px;
 }
 
-.dragon .body {
-    width: 52px;
-    height: 83px;
-    left: -26px;
-    top: -27px;
-    z-index: 1;
+.menu__item {
+    display: block;
+    background: url("../img/header/scroll.png") no-repeat;
+    width: 364px;
+    height: 51px;
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    color: #CA9B2E;
+    text-shadow: 2px 0 1px #000,
+        0 2px 1px #000,
+        -2px 0 1px #000,
+        0 -2px 1px #000;
+    color: #CA9B2E;
+    text-decoration: none;
+    line-height: 40px;
 }
 
-.dragon .neck {
-    width: 80px;
-    height: 82px;
-    left: 0px;
-    top: -32px;
+.menu__item:hover {
+    color: #D67727;
 }
 
-.dragon .upper-arm {
-    width: 56.64px;
-    height: 25.64px;
-    left: 11.81px;
-    top: 35px;
-    z-index: -1;
+.main {
+    margin: 70px 356px 0;
+    background: url("../img/old-list-texture-sd.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 5%;
 }
 
-.dragon .lower-arm {
-    width: 56px;
-    height: 22px;
-    left: -0.92px;
-    top: 42.15px;
-    transform: rotate(12.62deg);
-    z-index: -1;
-}
-
-.dragon .upper-head {
-    width: 38px;
-    height: 65px;
-    left: 65px;
-    top: -8px;
-
-}
-
-.dragon .lower-head {
-    width: 23px;
-    height: 31px;
-    left: 67px;
-    top: 30px;
-}
-
-.block {
-    background-color: #555;
-    width: 1000px;
-    height: 1000px;
-}
-
-/* .dragon .body {} */
-
-@keyframes dragon-wiggle-body-anim {
-    100% {
-        transform: rotate(4deg);
-    }
-}
-
-
-.dragon .lower-head {
-    z-index: -1;
-}
-
-@keyframes dragon-wiggle-lower-head-anim {
-    100% {
-        transform: rotate(-16deg) translateY(5px);
-    }
-}
-
-
-/* .dragon .upper-head {} */
-
-@keyframes dragon-wiggle-upper-head-anim {
-    100% {
-        transform: rotate(-8deg) translateX(-4px) translateY(5px);
-    }
-}
-
-
-/* .dragon .neck {} */
-
-@keyframes dragon-wiggle-neck-anim {
-    100% {
-        transform: rotate(8deg) translateY(5px);
-    }
-}
-
-/* .dragon .upper-arm {} */
-
-@keyframes dragon-wiggle-upper-arm-anim {
-    0% {
-        transform: rotate(0deg) translateX(0) translateY(0px);
-    }
-
-    100% {
-        transform: rotate(12deg) translateX(-4px) translateY(5px);
-    }
-}
-
-/* .dragon .lower-arm {} */
-
-
-
-@keyframes dragon-wiggle-lower-arm-anim {
-    0% {
-        transform: rotate(12.62deg);
-
-    }
-
-    100% {
-        transform: rotate(24deg) translateY(5px);
-    }
-}
-
-@keyframes dragon-open-upper-head {
-    100% {
-        transform: rotate(-36deg) translateY(10px) translateX(-2px);
-    }
-}
-
-@keyframes dragon-open-lower-head {
-    100% {
-        transform: rotate(-20deg) translateX(10px) translateY(13px);
-    }
-}
-
-@keyframes dragon-cran-neck {
-    100% {
-        transform: rotate(24deg) translateY(8px) translateX(15px) skew(-5deg, -5deg);
-    }
-}
-
-@keyframes dragon-lie-upper-head {
-    100% {
-        transform: rotate(38deg) translateX(-14px);
-    }
-}
-
-@keyframes dragon-lie-upper-head-2 {
-    0% {
-        transform: rotate(38deg) translateX(-14px);
-    }
-
-    100% {
-        transform: rotate(30deg) translateX(-12px) translateY(4px);
-
-    }
-}
-
-@keyframes dragon-lie-lower-head {
-    20% {
-        transform: translateX(-6px) translateY(-6px);
-    }
-
-    100% {
-        transform: rotate(16deg) translateY(-4px) translateX(-18px);
-    }
-}
-
-@keyframes dragon-lie-lower-head-2 {
-    0% {
-        transform: rotate(16deg) translateY(-5px) translateX(-18px);
-    }
-
-    100% {
-        transform: rotate(18deg) translateY(-1px) translateX(-16px);
-    }
-}
-
-@keyframes dragon-lie-upper-arm {
-    100% {
-        transform: rotate(-45deg) translateY(-10px) translateX(10px);
-    }
-}
-
-@keyframes dragon-lie-upper-arm-2 {
-    0% {
-        transform: rotate(-45deg) translateY(-10px) translateX(10px);
-    }
-
-    100% {
-        transform: rotate(-48deg) translateY(-12px) translateX(8px);
-    }
-}
-
-@keyframes dragon-lie-lower-arm {
-    100% {
-        transform: rotate(-25deg) translateY(-6px) translateX(15px);
-    }
-}
-
-@keyframes dragon-lie-lower-arm-2 {
-    0% {
-        transform: rotate(-25deg) translateY(-6px) translateX(15px);
-    }
-
-    100% {
-        transform: rotate(-30deg) translateY(-8px) translateX(13px);
-    }
-}
-
-.fire {
-    position: absolute;
-    width: 63.42px;
-    height: 35.52px;
-    left: 96.7px;
-    top: 46px;
-    transform: rotate(26deg);
+.main-h1 {
+    margin-top: 0;
 }
