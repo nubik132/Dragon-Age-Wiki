@@ -20,7 +20,7 @@ body {
 }
 
 .gradient {
-    width: 161px;
+    min-width: 161px;
     height: inherit;
     background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.82) 68.75%, rgba(255, 255, 255, 0) 100%);
 }
@@ -56,11 +56,14 @@ body {
 }
 
 .main {
+    min-height: calc(100vh - 70px);
+    min-width: none;
     margin: 70px 356px 0;
     background: url("../img/old-list-texture-sd.png");
     background-repeat: repeat-y;
-    background-size: cover;
-    padding: 5%;
+    background-size: 100%;
+    background-position: center;
+    padding: 3% 3% 16px;
 }
 
 .main-h1 {
