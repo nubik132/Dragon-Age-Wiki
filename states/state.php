@@ -19,14 +19,10 @@
                 <div class="dragon" id="dragon">
                     <img src="/src/img/header/dragon/body.png" alt="body" class="dragon-menu body" id="body">
                     <img src="/src/img/header/dragon/neck.png" alt="neck" class="dragon-menu neck" id="neck">
-                    <img src="/src/img/header/dragon/upper-arm.png" alt="upper-arm" class="dragon-menu upper-arm"
-                        id="upper-arm">
-                    <img src="/src/img/header/dragon/lower-arm.png" alt="lower-arm" class="dragon-menu lower-arm"
-                        id="lower-arm">
-                    <img src="/src/img/header/dragon/upper-head.png" alt="upper-head" class="dragon-menu upper-head"
-                        id="upper-head">
-                    <img src="/src/img/header/dragon/lower-head.png" alt="lower-head" class="dragon-menu lower-head"
-                        id="lower-head">
+                    <img src="/src/img/header/dragon/upper-arm.png" alt="upper-arm" class="dragon-menu upper-arm" id="upper-arm">
+                    <img src="/src/img/header/dragon/lower-arm.png" alt="lower-arm" class="dragon-menu lower-arm" id="lower-arm">
+                    <img src="/src/img/header/dragon/upper-head.png" alt="upper-head" class="dragon-menu upper-head" id="upper-head">
+                    <img src="/src/img/header/dragon/lower-head.png" alt="lower-head" class="dragon-menu lower-head" id="lower-head">
                 </div>
                 <div class="gradient"></div>
             </a>
