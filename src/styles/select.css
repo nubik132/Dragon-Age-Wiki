@@ -1,0 +1,19 @@
+.state-link {
+    display: block;
+    font-family: 'simpleiriska';
+    /* font-style: italic; */
+    font-size: 60px;
+    /* color: #CA9B2E; */
+    color: #000;
+    /* text-shadow: 2px 0 1px #000,
+        0 2px 1px #000,
+        -2px 0 1px #000,
+        0 -2px 1px #000; */
+    text-decoration: none;
+    text-align: center;
+    line-height: .8em;
+}
+
+.state-link:hover {
+    color: #D67727;
+}

@@ -52,7 +52,7 @@ class Fire {
     doFire() {
         let dragon = document.getElementById("dragon");
         let fire = document.createElement('img');
-        fire.src = "src/img/header/dragon/fire.gif";
+        fire.src = "/src/img/header/dragon/fire.gif";
         fire.alt = "fire";
         fire.classList.add("fire");
         fire.id = "fire";

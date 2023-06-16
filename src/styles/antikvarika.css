@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Antikvarika';
+	src: url('../fonts/antikvarika.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/antikvarika.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/antikvarika.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/antikvarika.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/antikvarika.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/antikvarika.svg#antikvarika') format('svg'); /* Chrome < 4, Legacy iOS */
+}

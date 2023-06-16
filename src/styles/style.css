@@ -9,6 +9,10 @@ body {
     background-attachment: fixed;
 }
 
+.main-page-link {
+    display: contents;
+}
+
 .header {
     display: flex;
     position: fixed;
