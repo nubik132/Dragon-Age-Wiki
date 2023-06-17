@@ -9,55 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-.main-page-link {
-    display: contents;
-}
 
-.header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    background-image: url("../img/header/dragonskin.jpg");
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.gradient {
-    min-width: 161px;
-    height: inherit;
-    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.82) 68.75%, rgba(255, 255, 255, 0) 100%);
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 11px 0px;
-    gap: 10px;
-}
-
-.menu__item {
-    display: block;
-    background: url("../img/header/scroll.png") no-repeat;
-    width: 364px;
-    height: 51px;
-    text-align: center;
-    font-style: italic;
-    font-size: 28px;
-    color: #CA9B2E;
-    text-shadow: 2px 0 1px #000,
-        0 2px 1px #000,
-        -2px 0 1px #000,
-        0 -2px 1px #000;
-    color: #CA9B2E;
-    text-decoration: none;
-    line-height: 40px;
-}
-
-.menu__item:hover {
-    color: #D67727;
-}
 
 .main {
     min-height: calc(100vh - 70px);
