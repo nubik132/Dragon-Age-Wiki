@@ -50,7 +50,12 @@
             if ($list === "characters") {
                 echo '<img src="/src/img/characters/' . $state . '.png" alt=' . $state . ' class="character-image">';
             }
-            echo file_get_contents($list . "/" . $state . ".txt");
+            echo file_get_contents("$list/$state.txt");
+
+            if ($list === "combinations") {
+                echo '<img src="/src/img/combinations/' . $state . '.png">';
+                echo file_exists("/src/img/combinations/$state");
+            }
 
             echo '</p>';
             ?>
