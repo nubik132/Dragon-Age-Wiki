@@ -15,7 +15,7 @@
     <div class="container">
         <?php include($_SERVER['DOCUMENT_ROOT']."/header.html"); ?>
 
-        <main class="main">
+        <main>
             <?php
             $list = $_GET['list'];
             foreach (glob($list . "/*.txt") as $filename) {

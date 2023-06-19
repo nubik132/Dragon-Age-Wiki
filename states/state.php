@@ -14,12 +14,12 @@
 <body>
     <div class="container">
         <?php include($_SERVER['DOCUMENT_ROOT']."/header.html"); ?>
-        <main class="main">
+        <main>
             <?php
             $list = $_GET['list'];
             $state = $_GET['state'];
             ?>
-            <h1><?php $state ?> </h1>
+            <h1><?php $state ?></h1>
             <?php
                 echo '<p class="state">';
                 if ($list === "characters") {

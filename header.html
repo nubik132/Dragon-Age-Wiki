@@ -16,10 +16,12 @@
         </div>
         <div class="gradient"></div>
     </a>
+    <a href="/map/index.php" class="header-map-link">
+        <div class="header-map">
+            <img src="/src/img/header/compass.png" alt="Карта" class="header-map-image">
+        </div>
+    </a>
     <div class="menu">
-        <a href="#" class="menu__item">
-            Миссии
-        </a>
         <a href="/states/select.php?list=characters" class="menu__item">
             <div>Персонажи</div>
         </a>
@@ -30,5 +32,10 @@
             <div>Навыки/Способности</div>
         </a>
     </div>
+    <form action="/search.php" method="GET" class="search-from">
+        <input id="textbox" type="text" name="query" placeholder="Поиск" class="search-textbox">
+        <input disabled id="submit" type="submit" value="Найти" class="search-button">
+    </form>
 </header>
-<script src="src/scripts/Facade.js"></script>
+<script src="/src/scripts/Facade.js"></script>
+<script src="/src/scripts/search.js"></script>

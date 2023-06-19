@@ -7,11 +7,10 @@ body {
     background: url("../img/bg.jpg");
     background-blend-mode: lighten;
     background-attachment: fixed;
+    min-height: 93vh;
 }
 
-
-
-.main {
+main {
     min-height: calc(100vh - 70px);
     min-width: none;
     margin: 70px 356px 0;

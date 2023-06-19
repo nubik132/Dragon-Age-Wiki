@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <?php include($_SERVER['DOCUMENT_ROOT']."/header.html"); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . "/header.html"); ?>
         <div class="map">
             <div class="place place-1"><a href="" class="place-link"></a></div>
             <div class="place place-2"><a href="" class="place-link"></a></div>

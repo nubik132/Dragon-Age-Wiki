@@ -6,17 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/styles/style.css">
-    <link rel="stylesheet" href="/src/styles/dragon.css">
-    <link rel="stylesheet" href="/src/styles/header.css">
     <title>Dragon Age Wiki</title>
 </head>
 
 <body>
     <div class="container">
-        <?php 
-            include("header.html");    
+        <?php
+        include("header.html");
         ?>
-        <main class="main">
+        <main>
             <h1 class="main-h1">Dragon Age Wiki</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim nisi ac facilisis
                 vestibulum. Sed augue quam, semper eu fringilla eu, porttitor venenatis quam. Proin aliquam urna felis,
