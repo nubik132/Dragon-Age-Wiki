@@ -11,33 +11,34 @@
 
 <body>
     <div class="container">
+        <script src="/src/scripts/place-mouse.js"></script>
         <?php include($_SERVER['DOCUMENT_ROOT'] . "/header.html"); ?>
         <div class="map">
-            <div class="place place-1"><a href="" class="place-link"></a></div>
-            <div class="place place-2"><a href="" class="place-link"></a></div>
-            <div class="place place-3"><a href="" class="place-link"></a></div>
-            <div class="place place-4"><a href="" class="place-link"></a></div>
-            <div class="place place-5"><a href="" class="place-link"></a></div>
-            <div class="place place-6"><a href="" class="place-link"></a></div>
-            <div class="place place-7"><a href="" class="place-link"></a></div>
-            <div class="place place-8"><a href="" class="place-link"></a></div>
-            <div class="place place-9"><a href="" class="place-link"></a></div>
-            <div class="place place-10"><a href="" class="place-link"></a></div>
-            <div class="place place-11"><a href="" class="place-link"></a></div>
-            <div class="place place-12"><a href="" class="place-link"></a></div>
-            <div class="place place-13"><a href="" class="place-link"></a></div>
-            <div class="place place-14"><a href="" class="place-link"></a></div>
-            <div class="place place-15"><a href="" class="place-link"></a></div>
-            <div class="place place-16"><a href="" class="place-link"></a></div>
-            <div class="place place-17"><a href="" class="place-link"></a></div>
-            <div class="place place-18"><a href="" class="place-link"></a></div>
-            <div class="place place-19"><a href="" class="place-link"></a></div>
-            <div class="place place-20"><a href="" class="place-link"></a></div>
-            <div class="place place-21"><a href="" class="place-link"></a></div>
-            <div class="place place-22"><a href="" class="place-link"></a></div>
-            <div class="place place-23"><a href="" class="place-link"></a></div>
-            <div class="place place-24"><a href="" class="place-link"></a></div>
-            <div class="place place-25"><a href="" class="place-link"></a></div>
+            <div class="place place-1"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-2"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-3"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-4"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-5"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-6"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-7"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-8"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-9"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-10"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-11"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-12"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-13"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-14"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-15"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-16"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-17"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-18"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-19"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-20"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-21"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-22"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-23"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-24"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
+            <div class="place place-25"><a href="" class="place-link" onmouseover="enter(this.children[0])" onmouseout="leave(this.children[0])"><img src="/src/img/map/select.gif" alt="select" class="select-place-img"></a></div>
             <img src="/src/img/map/map.png" alt="Карта" class="map-image">
         </div>
 
