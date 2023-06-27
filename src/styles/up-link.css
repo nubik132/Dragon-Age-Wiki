@@ -1,0 +1,14 @@
+.up-link {
+    font-weight: bold;
+    font-size: 32px;
+    position: absolute;
+    bottom: -6%;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: rgb(124, 35, 35);
+}
+
+.up-link:link {
+    text-decoration: none;
+}

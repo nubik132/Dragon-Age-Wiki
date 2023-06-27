@@ -12,7 +12,10 @@
 
 }
 
-.place-container {}
+.select-place-img {
+    width: 100%;
+    display: none;
+}
 
 .place {
     position: absolute;

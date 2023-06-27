@@ -34,3 +34,13 @@
         url('fonts/antikvarika.svg#antikvarika') format('svg');
     /* Chrome < 4, Legacy iOS */
 }
+
+@font-face {
+    font-family: 'Assya Font';
+    src: url("fonts/AssyaFontOfficial.otf");
+}
+
+@font-face {
+    font-family: "Halogen";
+    src: url("fonts/Halogen_0.ttf");
+}

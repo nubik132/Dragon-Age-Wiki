@@ -13,26 +13,34 @@
 
 <body>
     <div class="container">
-        <?php include($_SERVER['DOCUMENT_ROOT']."/header.html"); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . "/header.html"); ?>
         <main>
+
             <?php
             $list = $_GET['list'];
             $state = $_GET['state'];
             ?>
             <h1><?php $state ?></h1>
+
             <?php
-                echo '<p class="state">';
-                if ($list === "characters") {
+            echo '<p class="state">';
+            if ($list === "characters") {
                 echo '<img src="/src/img/characters/' . $state . '.png" alt=' . $state . '
                     class="state-image character-image">';
-                }
-                if ($list === "combinations") {
+            }
+            if ($list === "combinations") {
                 echo '<img src="/src/img/combinations/' . $state . '.png" alt=' . $state . '
                     class="state-image combination-image">';
                 echo file_exists("/src/img/combinations/$state");
-                }
-                echo file_get_contents("$list/$state.txt");
-                echo '</p>';
+            }
+            $conn = new mysqli("127.0.0.1", "root", "", database: "wiki");
+            $query = 'SELECT text FROM state WHERE name like \'%' . $state . '%\';';
+            $result = $conn->query($query);
+            $result->data_seek(0);
+            $text = $result->fetch_row()[0];
+
+            echo $text;
+            echo '</p>';
             ?>
         </main>
         <footer></footer>
