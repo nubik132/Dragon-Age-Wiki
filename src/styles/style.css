@@ -32,14 +32,21 @@ h2 {
     text-align: center;
     margin: initial auto;
     font-size: 3em;
+    font-family: "Halogen";
 }
 
 h2 a {
     text-decoration: none;
     color: #590001;
+    font-family: "Halogen";
 }
 
 h2 a:hover {
     text-decoration: none;
     color: #b61114;
+}
+
+@font-face {
+    font-family: "Halogen";
+    src: url("fonts/Halogen_0.ttf");
 }
